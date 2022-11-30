@@ -1,0 +1,5 @@
+u=int(input("u:"))
+v=int(input("v:"))
+a= complex(u, v)
+b="{0:b}".format(u)
+print(str(a)+"@"+str(b))
