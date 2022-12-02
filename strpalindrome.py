@@ -1,10 +1,8 @@
 
 string=input("Enter string : ") 
- 
-#Declare an empty string variable   
+
 revstr="" 
- 
-#Iterate string with for loop 
+
 for i in string: 
     revstr = i +revstr 
 print("Reversed string :",revstr) 
